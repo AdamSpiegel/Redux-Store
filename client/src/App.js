@@ -41,11 +41,10 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <Provider store={store}>
-      <ApolloProvider client={client}>
-        <Router>
-          <div>
-            {/* <Provider store={store}> */}
+    <ApolloProvider client={client}>
+      <Router>
+        <div>
+          <Provider store={store}>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -56,11 +55,10 @@ function App() {
               <Route exact path="/products/:id" component={Detail} />
               <Route component={NoMatch} />
             </Switch>
-            {/* </Provider> */}
-          </div>
-        </Router>
-      </ApolloProvider>
-    </Provider>
+          </Provider>
+        </div>
+      </Router>
+    </ApolloProvider>
   );
 }
 
