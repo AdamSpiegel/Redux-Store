@@ -5,7 +5,7 @@
 ## Table of Contents 🗂️📂
 
 1.  [Description](#Description)
-2.  [Installation](#Installation)
+2.  [Installation](##Installation)
 3.  [Project Usage](#Project-Usage)
 4.  [License Information](#License-Information)
 5.  [Testing Instructions](#Testing-Instructions)
