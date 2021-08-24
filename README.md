@@ -59,6 +59,11 @@ An e-commerce platform, refactored so that is utilizes Redux. As a senior engine
 _User Story_<br>
 As a senior engineer working on an e-commerce platform I want my platform to use Redux to manage global state instead of the Context API so that my website's state management is taken out of the React ecosystem.
 
+1. Clone code to local machine.
+2. Run NPM Install in root folder to utilize package.json dependencies.
+3. Run 'NPM Run Seed' to populate with application with pre-built products.
+4. Need to utilize deploy Heroku and MongoDB Atlas to properly function in full.
+
 <br>
 
 ## License Information :tickets::copyright:
