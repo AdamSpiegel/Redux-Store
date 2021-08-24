@@ -47,8 +47,10 @@ An e-commerce platform, refactored so that is utilizes Redux. As a senior engine
 
 ### _Additional Install Instructions & Tools Include_
 
-- Run NPM Install to utilize package.json dependencies
-- Need to utilize Heroku and MongoDB Atlas to deploy properly.
+- Clone code to local machine.
+- Run NPM Install to utilize package.json dependencies.
+- Run 'NPM Run Seed' to populate with application with pre-built products.
+- Need to utilize deploy Heroku and MongoDB Atlas to properly function in full.
 
 <br>
 
